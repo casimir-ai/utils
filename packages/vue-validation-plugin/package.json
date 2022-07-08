@@ -1,0 +1,30 @@
+{
+  "name": "@casimir/vue-validation-plugin",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Euheny Bondarovich <euheny@gmail.com>",
+  "homepage": "https://github.com/casimir-ai/utils#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm-registry.deip.world/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:casimir-ai/utils.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/casimir-ai/utils/issues"
+  },
+  "dependencies": {
+    "@casimir/proxydi": "1.0.0",
+    "@casimir/toolbox": "1.0.0",
+    "vee-validate": "^3.4.9"
+  },
+  "peerDependencies": {
+    "vue-i18n": "^8.24.4"
+  }
+}

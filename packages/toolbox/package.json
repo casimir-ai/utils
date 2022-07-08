@@ -1,0 +1,44 @@
+{
+  "name": "@casimir/toolbox",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/casimir-ai/utils#readme",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:casimir-ai/utils.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/casimir-ai/utils/issues"
+  },
+  "dependencies": {
+    "@array-utils/chunk-it": "^3.0.2",
+    "@noble/hashes": "^1.1.2",
+    "@types/kind-of": "^6.0.0",
+    "@types/lodash": "^4.14.182",
+    "@types/object-path": "^0.11.1",
+    "@types/uuid": "^8.3.4",
+    "change-case": "^4.1.2",
+    "chroma-js": "^2.4.2",
+    "chunk": "^0.0.3",
+    "colorthief": "^2.3.2",
+    "crc": "^4.1.1",
+    "filter-where": "^2.0.0",
+    "find-keypath": "^1.0.0",
+    "kind-of": "^6.0.3",
+    "lodash": "^4.17.21",
+    "md5": "^2.3.0",
+    "object-path": "^0.11.8",
+    "recursive-iterator": "^3.3.0",
+    "uuid": "^8.3.2"
+  }
+}

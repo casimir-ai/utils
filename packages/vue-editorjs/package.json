@@ -1,0 +1,40 @@
+{
+  "name": "@casimir/vue-editorjs",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Euheny Bondarovich <euheny@gmail.com>",
+  "homepage": "https://github.com/casimir-ai/utils#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm-registry.deip.world/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DEIPworld/deip-modules.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/casimir-ai/utils/issues"
+  },
+  "dependencies": {
+    "@casimir/toolbox": "1.0.0",
+    "@editorjs/delimiter": "^1.2.0",
+    "@editorjs/editorjs": "^2.25.0",
+    "@editorjs/header": "^2.6.2",
+    "@editorjs/link": "^2.4.1",
+    "@editorjs/marker": "^1.2.2",
+    "@editorjs/nested-list": "^1.0.2",
+    "@editorjs/quote": "^2.4.0",
+    "@editorjs/table": "^2.0.2",
+    "@editorjs/underline": "^1.0.0",
+    "@mdi/js": "^6.9.96",
+    "jest-serializer-html": "^7.1.0",
+    "lodash": "^4.17.21"
+  },
+  "peerDependencies": {
+    "vue": "^2.6.14"
+  }
+}

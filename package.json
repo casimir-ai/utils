@@ -1,0 +1,56 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "precommit": "lint-staged",
+    "prepare": "husky install",
+    "test": "cross-env NODE_ENV=test jest",
+    "test:update": "cross-env NODE_ENV=test jest -u",
+    "types:check": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.18.9",
+    "@babel/core": "^7.18.9",
+    "@babel/node": "^7.18.9",
+    "@babel/plugin-proposal-decorators": "^7.18.9",
+    "@babel/plugin-transform-runtime": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "@babel/preset-typescript": "^7.18.6",
+    "@casimir/cli": "^1.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.30.6",
+    "@typescript-eslint/parser": "^5.30.6",
+    "@vue/babel-preset-jsx": "^1.3.0",
+    "@vue/test-utils": "^1.3.0",
+    "@vue/vue2-jest": "^28.0.1",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^28.1.3",
+    "eslint": "^8.20.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx": "^0.1.0",
+    "eslint-plugin-vue": "^9.2.0",
+    "husky": "^8.0.1",
+    "jest": "^28.1.3",
+    "jest-environment-jsdom": "^28.1.3",
+    "jest-extended": "^3.0.1",
+    "jest-serializer-html": "^7.1.0",
+    "lint-staged": "^13.0.3",
+    "typescript": "^4.7.4",
+    "vue": "^2.7.7",
+    "vuetify": "^2.6.7"
+  },
+  "lint-staged": {
+    "*.{js,vue}": "eslint --fix"
+  },
+  "engines": {
+    "node": "^16.13.0",
+    "npm": "^8.1.0"
+  }
+}

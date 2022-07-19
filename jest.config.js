@@ -16,13 +16,6 @@ module.exports = {
     '^.+\\.(js|jsx)?$': 'babel-jest',
     '^.*\\.(vue)$': '@vue/vue2-jest'
   },
-  testPathIgnorePatterns: [
-    'packages/common/lib-crypto',
-    'packages/casimir/services/RpcClient',
-    'packages/casimir/models',
-    'packages/generators',
-    '__tests__/helpers'
-  ],
   setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
   testEnvironment: 'jsdom',
   globals: {

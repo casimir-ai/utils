@@ -16,6 +16,9 @@ module.exports = {
     '^.+\\.(js|jsx)?$': 'babel-jest',
     '^.*\\.(vue)$': '@vue/vue2-jest'
   },
+  testPathIgnorePatterns: [
+    '__tests__/helpers'
+  ],
   setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
   testEnvironment: 'jsdom',
   globals: {

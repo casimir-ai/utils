@@ -19,7 +19,9 @@
         "staging"
       ]
     },
-    "publish": {},
+    "publish": {
+      "verifyAccess": false
+    },
     "bootstrap": {
       "npmClientArgs": [
         "--no-package-lock"

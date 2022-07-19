@@ -9,12 +9,12 @@
   "publishConfig": {
     "registry": "https://npm-registry.deip.world/"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DEIPworld/deip-modules.git"
-  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:casimir-ai/utils.git"
   },
   "bugs": {
     "url": "https://github.com/casimir-ai/utils/issues"

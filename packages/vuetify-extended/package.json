@@ -6,15 +6,12 @@
   "homepage": "https://github.com/casimir-ai/utils#readme",
   "license": "ISC",
   "main": "index.js",
-  "publishConfig": {
-    "registry": "https://npm-registry.deip.world/"
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com:casimir-ai/utils.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/casimir-ai/utils/issues"

@@ -11,7 +11,7 @@ on: workflow_dispatch
 
 jobs:
   test:
-    uses: casimir-ai/.github/workflows/test.yaml@master
+    uses: .github/workflows/test.yaml@master
     with:
       action_title: Casimir Utils Tests
 

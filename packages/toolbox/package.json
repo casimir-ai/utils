@@ -1,6 +1,6 @@
 {
   "name": "@casimir/toolbox",
-  "version": "1.0.0",
+  "version": "1.0.0-beta.0",
   "description": "> TODO: description",
   "author": "",
   "license": "ISC",
@@ -10,12 +10,12 @@
   "files": [
     "lib"
   ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com:casimir-ai/utils.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/casimir-ai/utils/issues"

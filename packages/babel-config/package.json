@@ -1,6 +1,6 @@
 {
   "name": "@casimir/babel-config",
-  "version": "1.0.0",
+  "version": "1.0.0-beta.0",
   "description": "> TODO: description",
   "author": "Euheny Bondarovich <euheny@gmail.com>",
   "homepage": "https://github.com/casimir-ai/utils#readme",
@@ -9,12 +9,12 @@
   "publishConfig": {
     "access": "public"
   },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/casimir-ai/utils.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/casimir-ai/utils/issues"

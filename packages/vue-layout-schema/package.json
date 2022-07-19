@@ -1,6 +1,6 @@
 {
   "name": "@casimir/vue-layout-schema",
-  "version": "1.0.0-beta.0",
+  "version": "1.0.0-beta.1",
   "description": "> TODO: description",
   "author": "Euheny Bondarovich <euheny@gmail.com>",
   "homepage": "https://github.com/casimir-ai/utils#readme",
@@ -20,9 +20,9 @@
     "url": "https://github.com/casimir-ai/utils/issues"
   },
   "dependencies": {
-    "@casimir/toolbox": "1.0.0-beta.0",
-    "@casimir/vue-elements": "1.0.0-beta.0",
-    "@casimir/vuetify-extended": "^1.0.0-beta.0",
+    "@casimir/toolbox": "1.0.0-beta.1",
+    "@casimir/vue-elements": "1.0.0-beta.1",
+    "@casimir/vuetify-extended": "1.0.0-beta.1",
     "lodash": "^4.17.21",
     "vuedraggable": "^2.24.3"
   },

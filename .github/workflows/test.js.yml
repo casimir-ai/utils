@@ -14,6 +14,9 @@ jobs:
     uses: casimir-ai/.github/.github/workflows/test.yaml@master
     with:
       action_title: Casimir Utils Tests
+    secrets:
+      NPM_TOKEN: ${{ secrets.CASIMIR_NPM_TOKEN }}
+      SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
 
 #jobs:
 #  test:

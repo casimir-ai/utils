@@ -1,6 +1,6 @@
 {
   "name": "@casimir/proxydi",
-  "version": "1.0.0",
+  "version": "1.0.0-beta.0",
   "description": "",
   "main": "index.js",
   "directories": {
@@ -13,6 +13,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@casimir/toolbox": "1.0.0"
+    "@casimir/toolbox": "1.0.0-beta.0"
   }
 }

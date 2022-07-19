@@ -1,6 +1,6 @@
 {
   "name": "@casimir/vue-editorjs",
-  "version": "1.0.0",
+  "version": "1.0.0-beta.0",
   "description": "> TODO: description",
   "author": "Euheny Bondarovich <euheny@gmail.com>",
   "homepage": "https://github.com/casimir-ai/utils#readme",
@@ -20,7 +20,7 @@
     "url": "https://github.com/casimir-ai/utils/issues"
   },
   "dependencies": {
-    "@casimir/toolbox": "1.0.0",
+    "@casimir/toolbox": "1.0.0-beta.0",
     "@editorjs/delimiter": "^1.2.0",
     "@editorjs/editorjs": "^2.25.0",
     "@editorjs/header": "^2.6.2",

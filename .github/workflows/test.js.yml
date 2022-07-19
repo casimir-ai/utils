@@ -1,0 +1,39 @@
+name: Test CI
+#
+#on:
+#  pull_request:
+#    branches:
+#      - develop
+#      - staging
+#      - master
+
+on: workflow_dispatch
+
+jobs:
+  test:
+    uses: casimir-ai/.github/workflows/test.yaml@master
+    with:
+      action_title: Casimir Utils Tests
+
+#jobs:
+#  test:
+#    name: Test on node
+#    runs-on: ubuntu-20.04
+#    steps:
+#      - name: Make Tests
+#        uses: casimir-ai/.github/actions/make-test@master
+#        with:
+#          npm_token: ${{ secrets.CASIMIR_NPM_TOKEN }}
+#
+#  run-if-test-failed:
+#    runs-on: ubuntu-latest
+#    needs: [ test ]
+#    if: always() && (needs.test.result == 'failure')
+#    steps:
+#      - name: Failure Slack notification
+#        uses: casimir-ai/.github/actions/notify@master
+#        with:
+#          title: "${{ github.ref }}: Casimir Utils Tests Failed!"
+#          message: "GitHub tests from: ${{ github.event.pull_request.html_url || github.event.head_commit.url }}"
+#          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+#          color: '#FF5132'

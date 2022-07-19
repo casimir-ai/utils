@@ -16,7 +16,7 @@
       "includeMergedTags": true,
       "allowBranch": [
         "master",
-        "develop"
+        "staging"
       ]
     },
     "publish": {},
